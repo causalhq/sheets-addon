@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["googleappsscript", "prettier"],
+  "env": {
+    "googleappsscript/googleappsscript": true
+  },
+  "globals": {
+    "SpreadsheetApp": true,
+    "HtmlService": true,
+    "global": true
+  },
+  "rules": {
+    "import/prefer-default-export": 0,
+    "prettier/prettier": "error"
+  }
+}
